@@ -23,6 +23,15 @@
         android:adjustViewBounds="true"
         android:cropToPadding="true"
         android:src="@drawable/img_login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username = admin , Password admin1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -45,6 +54,7 @@
         android:background="@drawable/bg_login"
         android:gravity="center"
         android:hint="masukkan_username"
+        android:textColor="@color/black"
         android:paddingTop="7dp"
         android:paddingBottom="7dp" />
 
@@ -60,6 +70,7 @@
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
         android:hint="masukkan_password"
+        android:textColor="@color/black"
         android:layout_below="@+id/idUser"
         />
 
